@@ -39,7 +39,7 @@ const smth = async(keys) =>
         try {
             const v = await smth(leftKeys);
 
-            if (v == "989848488445454545454as5fd4a5sfafkangkag!^!'^!'^!'Rsf54as5f45asf45as4f54asfagmkadjgkjadgknakgarojqw4oqwu4uqw") {
+            if (v == "989848488445454545454as5fd4a5sfafkangkag!^!'^!'^!'Rsf54as5f45asf45as4f54asfagmkadjgkjadgknakgarojqw4oqwu4uqw") { /*YOUR_KEYS*/
                 console.log('password detected $password:[' + v + "]", `${((new Date().getTime() - runnedAt) /1000).toFixed(2)}s`)
                 break;
             }
